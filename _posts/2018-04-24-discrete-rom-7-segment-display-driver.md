@@ -16,7 +16,7 @@ So let's separate all the rows and all the columns. This way we have a control o
 
 That's all good and well but wires are conducting in both directions. So the signal we apply will backfeed to something else. Damn wires!
 
-The system is solid it only needs a wire link that doesn't let the signal to feed back. <i>Diodes are kinda one way wires. </i>Yes! And honestly that's all there's to it. Some skilful connections and to made yourself a read-only memory - a <i>diode matrix.</i>
+The system is solid it only needs a wire link that doesn't let the signal to feed back. _Diodes are kinda one way wires._ Yes! And honestly that's all there's to it. Some skilful connections and to made yourself a read-only memory - a _diode matrix._
 
 Bare in mind the voltage drop of the particular kind of diode you're using if you want to go down this path with me. Transistors are your pals, because pulling the signal high when active will ensure the output is strong enough to drive other things. Say, LEDs or GPIOs of your favourite micro.
 
@@ -26,6 +26,6 @@ Talking about it as if it was a real memory. That's because it is! Sure it's not
 
 So what are the actual specs of this thing? It's a ten word ROM. Word is a fancy byte. As we know, a byte is eight bits. Word is basically the same thing just not eight bits long. In case of this memory, a word is seven bits long. Because the LED display has seven separate segments. One bit for each segment. Ten digits - ten sets of seven ones and zeros.
 
-I streamed bits of the process of designing such board and will do some steams in the future. <a href="https://www.youtube.com/watch?v=RcjmDCiezr0">The first one</a> was mostly about the schematics and <a href="https://www.youtube.com/watch?v=VZ6lebWdtbo">the second</a> was layout. You can also get the latest updates on the <a href="/Discrete-7-segment-driver">Github</a> project site.
+I streamed bits of the process of designing such board and will do some steams in the future. <a href="https://www.youtube.com/watch?v=RcjmDCiezr0">The first one</a> was mostly about the schematics and <a href="https://www.youtube.com/watch?v=VZ6lebWdtbo">the second</a> was layout.
 
 Of course I would love you to join in on the design but I'm no Bob Ross and the happy little diodes sometimes go to places they shouldn't during those steams. All I want you to do is to understand. Hopefully I can achieve with these posts and when you watch the video you will know what I'm doing and be able to call me out when it's wrong. I'll find out but checking if stud actually works is not as interesting on stream so I do that later.
