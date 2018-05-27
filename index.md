@@ -7,9 +7,9 @@ layout: home
 
 # Welcome to the brand new site!
 
-## Work in progress Unregulated Powersupply
+`The site is under development, be patient`
 
-This is a work in progress and the [original is still available](http://unregulatedpowersupply.wordpress.com/) at wordpress.
+This is a work in progress and the [original is still available](http://unregulatedpowersupply.wordpress.com/) at wordpress. At this point all posts are imported, including pictures. There's no reason to go visit the old site.
 
 Github is awesome and we should all learn to appreciate it a bit more. The site will be changing like crazy in following weeeks (or longer) so keep cool. I’ll be moving all content from the old site here.
 
